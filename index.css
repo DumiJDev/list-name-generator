@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right, darkblue, gold) repeat;
+    background-size: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+textarea {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button {
+    background-color: transparent;
+    color: gold;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 1s linear;
+}
+
+button:hover {
+    background-color: gold;
+    color: darkblue;
+    transition: all 1s linear;
+}
+
+label {
+    color: white;
+}
+
+table {
+    color: white;
+}
