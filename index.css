@@ -1,9 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background: linear-gradient(to right, darkblue, gold) repeat;
-    background-size: 100vh;
+    background: linear-gradient(to right, darkblue, gold);
+    background-repeat: no-repeat;
     display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: center;
 }
 
@@ -13,6 +20,7 @@ textarea {
     font-weight: bold;
     border: 1px solid;
     border-radius: 5px;
+    margin: 5px 30px;
 }
 
 button {
@@ -22,6 +30,7 @@ button {
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px;
+    margin-top: 20px;
     transition: all 1s linear;
 }
 
@@ -37,4 +46,21 @@ label {
 
 table {
     color: white;
+}
+
+form, #nomes-gerados {
+    justify-self: center;
+    align-self: center;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+form div {
+    display: flex;
 }
