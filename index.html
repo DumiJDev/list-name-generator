@@ -1,43 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nomes</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
+<html lang="pt">
 
-  <body>
-    <form action="mailto:dumi703@gmail.com">
-      <label for="nomes"
-        >Nomes:
-        <br />
-        <textarea
-          name="nomes"
-          id="nomes"
-          cols="30"
-          rows="10"
-          placeholder="Digite os nomes aqui"
-        ></textarea></label
-      ><br />
-      <label for="sobrenome">
-        Sobrenomes
-        <br />
-        <textarea
-          name="sobrenomes"
-          id="sobrenomes"
-          cols="30"
-          rows="10"
-          placeholder="Digite os sobrenomes aqui"
-        ></textarea>
-      </label>
-      <br />
-      <button id="bt" type="button">Gerar nomes</button>
-    </form>
-    <br />
-    <br />
-    <div id="nomes-gerados"></div>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>List Name Generator</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <form action="mailto:dumi703@gmail.com">
+    <div>
+      <div>
+        <label for="nomes">Nomes:
+          <br />
+          <textarea name="nomes" id="nomes" cols="30" rows="10" placeholder=" Digite os nomes aqui"></textarea></label>
+      </div>
+      <div>
+        <label for="sobrenome">
+          Sobrenomes
+          <br />
+          <textarea name="sobrenomes" id="sobrenomes" cols="30" rows="10"
+            placeholder=" Digite os sobrenomes aqui"></textarea>
+        </label>
+      </div>
+    </div>
+    <button id="bt" type="button">Gerar nomes</button>
+  </form>
+  <br />
+  <br />
+  <div id="nomes-gerados"></div>
+  <script src="index.js"></script>
+</body>
+
 </html>
